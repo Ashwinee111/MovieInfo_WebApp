@@ -31,7 +31,7 @@ let getMovie = () => {
                             </div>
                             <div class="details">
                                 <span>${data.Rated}</span>
-                                <span>${data.Year}</span>
+                                <span>${data.Released}</span>
                                 <span>${data.Runtime}</span>
                             </div>
                             <div class="genre">
@@ -45,6 +45,8 @@ let getMovie = () => {
                     <p>${data.Plot}</p>
                     <h3>Cast:</h3>
                     <p>${data.Actors}</p>
+                    <h3>Language:</h3>
+                    <p>${data.Language}</p>
                 `;
         }
 
